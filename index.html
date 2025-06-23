@@ -5,26 +5,26 @@ layout: none
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6QZDW7ZJ3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-G6QZDW7ZJ3');
+        </script>
         <title>ut01 navigation</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A simple GUI navigation page for UT-Austin students.">
         <meta name="keywords" content="UT Austin, UT, Texas, Austin, International Students, Navigation, Links, ISSS">
-        <meta name="author" content="ktwu01: Koutian Wu">
+        <meta name="author" content="GitHub: ut01, ktwu01, ...">
         <meta http-equiv="Pragma" content="no-cache">
         <meta http-equiv="Cache-Control" content="no-cache">
         <link rel="icon" href="favicon.ico">
         <link href="style.css" rel="stylesheet">
         <link href="https://kit-pro.fontawesome.com/releases/v6.4.0/css/pro.min.css" rel="stylesheet">
-        <script>
-          var _hmt = _hmt || [];
-          (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?608099a97a36357ac1c2b142b92e67db";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-          })();
-        </script>
     </head>
     <body>
         <div class="u_nav-wrapper">
@@ -58,7 +58,7 @@ layout: none
                     <div class="um_nav-btn" onclick="search('wolframalpha_mob', 'mobile')">Wolfram</div>
                 </div>
                 <div class="u_nav-right">
-                    <a class="u_nav-link" href="https://ktwu01.github.io/ut01/">Site: <b>ktwu01.github.io/ut01</b></a>
+                    <a class="u_nav-link" href="https://ut01.github.io">Site: <b>ut01.github.io</b></a>
                     <a href="#" class="u_nav-link" onclick="setHome(this, window.location)">Set as Homepage</a>
                 </div>
             </div>
@@ -71,34 +71,36 @@ layout: none
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://my.utexas.edu/" title="MyUT" icon="fad fa-house-user" %}
                             {% include block-grid.html url="https://utdirect.utexas.edu/" title="UT Direct" icon="fad fa-link" %}
-                            {% include block-grid.html url="https://utexas.instructure.com/" title="Canvas" icon="fad fa-chalkboard-user" %}
+                            {% include block-grid.html url="https://canvas.utexas.edu/" title="Canvas" icon="fad fa-chalkboard-user" %}
                             {% include block-grid.html url="https://police.utexas.edu/" title="UT Police" icon="fad fa-shield-halved" %}
                             {% include block-grid.html url="https://emergency.utexas.edu/" title="Emergency Info" icon="fad fa-triangle-exclamation" %}
-                            {% include block-grid.html url="https://www.healthyhorns.utexas.edu/uhs/index.html" title="Health (UHS)" icon="fad fa-briefcase-medical" %}
-                            
+                            {% include block-grid.html url="https://www.healthyhorns.utexas.edu/uhs/index.html" title="Medical" icon="fad fa-briefcase-medical" %}
                         </div>
                     </div>
                     <div class="main-block">
                         <span class="block-title">Academics & Registration</span>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://utdirect.utexas.edu/apps/student/gradereport/student/" title="My Grades" icon="fad fa-chart-line" %}
-                            {% include block-grid.html url="https://registrar.utexas.edu/schedules" title="Course Schedules" icon="fad fa-calendar-days" %}
-                            {% include block-grid.html url="https://registrar.utexas.edu/calendars" title="Acade Calendar" icon="fad fa-calendar-week" %}
+                            {% include block-grid.html url="https://registrar.utexas.edu/schedules" title="Course Sched" icon="fad fa-calendar-days" %}
+                            {% include block-grid.html url="https://registrar.utexas.edu/calendars" title="Academic Cal" icon="fad fa-calendar-week" %}
+                            {% include block-grid.html url="https://gradschool.utexas.edu/" title="Grad School" icon="fad fa-user-graduate" %}
+                            {% include block-grid.html url="https://undergradcollege.utexas.edu" title="Ugrd College" icon="fad fa-person-chalkboard" %}
                             {% include block-grid.html url="https://www.lib.utexas.edu/" title="UT Libraries" icon="fad fa-books" %}
-                            {% include block-grid.html url="https://registrar.utexas.edu/services" title="Registrar Serv" icon="fad fa-landmark" %}
-                            {% include block-grid.html url="https://utdirect.utexas.edu/registrar/ris.WBX" title="Registrar Info" icon="fad fa-file-lines" %}
-                            {% include block-grid.html url="https://gradschool.utexas.edu/" title="Graduate School" icon="fad fa-user-graduate" %}
-                            {% include block-grid.html url="https://www.utexas.edu/ugs/undergraduate-advising" title="Undergrad College" icon="fad fa-person-chalkboard" %}
                         </div>
                     </div>
                      <div class="main-block">
-                        <span class="block-title">Getting Started / New Students</span>
+                        <span class="block-title">Before Semester / New Students</span>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://www.google.com/search?q=ut+austin+application" title="Apply to UT" icon="fad fa-graduation-cap" %}
                             {% include block-grid.html url="https://utdirect.utexas.edu/apps/adm/mystatus/" title="MyStatus" icon="fad fa-file-check" %}
                             {% include block-grid.html url="https://guide.utcssa.net/" title="UTCSSA Guide" icon="fad fa-book-sparkles" %}
-                            {% include block-grid.html url="https://admissions.utexas.edu/enroll/freshman-checklist" title="New Freshman Checklist" icon="fad fa-list-check" %}
-                            {% include block-grid.html url="https://gradschool.utexas.edu/admissions/after-your-decision" title="New Grad Checklist" icon="fad fa-list-check" %}
+                            <!--- {% include block-grid.html url="https://admissions.utexas.edu/enroll/freshman-checklist" title="Freshman Chklst" icon="fad fa-list-check" %} -->
+                            {% include block-grid.html url="https://gradschool.utexas.edu/admissions/after-your-decision" title="New Grad Chklst" icon="fad fa-list-check" %}
+                            {% include block-grid.html url="https://guide.utcssa.net/course-guide/preface" title="Course Slct" icon="fad fa-school" %}
+                            {% include block-grid.html url="https://registrar.utexas.edu/services" title="Regist Service" icon="fad fa-landmark" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/registrar/ris.WBX" title="Regist Info" icon="fad fa-file-lines" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/acct/fb/waivers/" title="Tuition Waiver" icon="fad fa-receipt" %}
+                            {% include block-grid.html url="https://global.utexas.edu/isss/insurance/students/waivers" title="Insurance Waiver" icon="fad fa-file-shield" %}
                         </div>
                     </div>
                 </div>
@@ -109,7 +111,6 @@ layout: none
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://utdirect.utexas.edu/acct/rec/wio/wio_home.WBX" title="What I Owe" icon="fad fa-money-check-dollar" %}
                             {% include block-grid.html url="http://utdirect.utexas.edu/apps/studentfinancials/mytuitionbill/" title="Tuition Bill" icon="fad fa-file-invoice-dollar" %}
-                            {% include block-grid.html url="https://utdirect.utexas.edu/acct/fb/waivers/" title="Tuition Waiver" icon="fad fa-receipt" %}
                             {% include block-grid.html url="https://utdirect.utexas.edu/acct/rec/weft/webEFT_info.WBX" title="Direct Deposit" icon="fad fa-money-bill-transfer" %}
                             {% include block-grid.html url="https://finaid.utexas.edu/" title="Financial Aid" icon="fad fa-hand-holding-dollar" %}
                             {% include block-grid.html url="https://www.google.com/search?q=ut%20austin%20Tax" title="Tax Forms" icon="fad fa-file-waveform" %}
@@ -119,22 +120,25 @@ layout: none
                         <span class="block-title">Campus Life & Utilities</span>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
-                            {% include block-grid.html url="https://housing.utexas.edu/dining" title="Dining" icon="fad fa-utensils" %}
-                            {% include block-grid.html url="https://utdirect.utexas.edu/utapps/uhd/services/dining/" title="Dining Balances" icon="fad fa-dollar-sign" %}
+                            {% include block-grid.html url="https://hf-foodpro.austin.utexas.edu/foodpro/location.aspx" title="Menus" icon="fad fa-utensils" %}
+                            {% include block-grid.html url="https://utdirect.utexas.edu/utapps/uhd/services/dining/" title="Dining Bal" icon="fad fa-dollar-sign" %}
                             {% include block-grid.html url="https://maps.utexas.edu/" title="Campus Map" icon="fad fa-map-location-dot" %}
-                            {% include block-grid.html url="https://parking.utexas.edu/transportation/shuttles" title="Shuttle Buses" icon="fad fa-bus-simple" %}
+                            {% include block-grid.html url="https://parking.utexas.edu/transportation/shuttles" title="UT Buses" icon="fad fa-bus-simple" %}
                             {% include block-grid.html url="https://parking.utexas.edu/" title="Parking" icon="fad fa-square-parking" %}
-                            {% include block-grid.html url="https://www.utrecsports.org/" title="Recr. Sports" icon="fad fa-person-running" %}
-                            {% include block-grid.html url="https://universityevents.utexas.edu/" title="UT Events" icon="fad fa-calendar-star" %}
+                            {% include block-grid.html url="https://www.utrecsports.org/" title="RecSports" icon="fad fa-person-running" %}
+                            {% include block-grid.html url="https://www.utrecsports.org/facilities" title="Gym Hours" icon="fad fa-dumbbell" %}
+                            {% include block-grid.html url="https://www.healthyhorns.utexas.edu/cmhc/index.html" title="Mental Health" icon="fad fa-heart-circle-check" %}
                         </div>
                     </div>
                     <div class="main-block">
                         <span class="block-title">Legal & Other Support</span>
                         <div class="block-grid-wrapper clearfix">
                             {% include block-grid.html url="https://www.google.com/search?q=ut+legal+services+for+students" title="Student Legal" icon="fad fa-gavel" %}
-                            {% include block-grid.html url="https://ombuds.utexas.edu/student" title="Stud Ombuds" icon="fad fa-scale-balanced" %}
-                            {% include block-grid.html url="https://titleix.utexas.edu/" title="Title IX" icon="fad fa-book-user" %}
                             {% include block-grid.html url="http://disability.utexas.edu/" title="Disability & Access" icon="fad fa-universal-access" %}
+                            {% include block-grid.html url="https://titleix.utexas.edu/" title="Title IX" icon="fad fa-book-user" %}
+                            {% include block-grid.html url="https://ombuds.utexas.edu/student" title="Stud Ombuds" icon="fad fa-scale-balanced" %}
+                            {% include block-grid.html url="https://universityevents.utexas.edu/" title="UT Events" icon="fad fa-calendar-star" %}
+                            {% include block-grid.html url="https://deanofstudents.utexas.edu/sos/" title="SOS (Stud Otrch & Support)" icon="fad fa-handshake-angle" %}
                         </div>
                     </div>
                 </div>
@@ -143,15 +147,18 @@ layout: none
                     <div class="main-block">
                         <span class="block-title">Technology & Resources</span>
                         <div class="block-grid-wrapper clearfix">
+                            {% include block-grid.html url="https://idmanager.its.utexas.edu/eid_self_help/" title="EID Self Help" icon="fad fa-id-card" %}
+                            {% include block-grid.html url="https://security.utexas.edu/MFA-Readiness" title="Duo MFA Help" icon="fad fa-mobile-screen-button" %}
                             {% include block-grid.html url="https://ut.service-now.com/sp" title="IT Service" icon="fad fa-computer" %}
                             {% include block-grid.html url="https://ut.service-now.com/sp?id=ut_bs_service_detail&sys_id=f8a2f29b0ff3960003d2e498b1050ed8" title="UT Serv Desk" icon="fad fa-headset" %}
-                            {% include block-grid.html url="https://office365.utexas.edu/" title="UT Mail" icon="fad fa-envelope" %}
+                            {% include block-grid.html url="https://cloud.wikis.utexas.edu/" title="UT Wikis" icon="fab fa-wikipedia-w" %}
+                            {% include block-grid.html url="https://microsoft365.utexas.edu/" title="MicroSoft365" icon="fad fa-envelope" %}
                             {% include block-grid.html url="https://its.utexas.edu/services/virtual-private-network-vpn" title="UT VPN" icon="fad fa-shield-keyhole" %}
-                            {% include block-grid.html url="https://www.google.com/search?q=ut%20austin%20software%20downloads" title="Software" icon="fad fa-floppy-disk" %}
-                            {% include block-grid.html url="https://ut.service-now.com/sp?id=kb_article&number=KB0018242" title="Duo MFA Help" icon="fad fa-mobile-screen-button" %}
                             {% include block-grid.html url="https://utexas.app.box.com/" title="UT Box" icon="fad fa-box" %}
+                            {% include block-grid.html url="https://utexas-my.sharepoint.com/" title="Onedrive" icon="fad fa-hard-drive" %}
                             {% include block-grid.html url="https://tacc.utexas.edu/" title="TACC" icon="fad fa-server" %}
                             {% include block-grid.html url="https://utexas.zoom.us/" title="Zoom" icon="fad fa-video" %}
+                            {% include block-grid.html url="https://www.google.com/search?q=ut%20austin%20software%20downloads" title="Softwares" icon="fad fa-floppy-disk" %}
                         </div>
                     </div>
                     <div class="main-block">
@@ -162,7 +169,6 @@ layout: none
                             {% include block-grid.html url="https://global.utexas.edu/isss/about/contact" title="ISSS Advising" icon="fad fa-comments-question" %}
                             {% include block-grid.html url="https://global.utexas.edu/isss/immigration" title="Visa & Immigration" icon="fad fa-file-contract" %}
                             {% include block-grid.html url="https://global.utexas.edu/isss/insurance" title="Insurance Info" icon="fad fa-file-medical" %}
-                            {% include block-grid.html url="https://global.utexas.edu/isss/insurance/students/waivers" title="Insurance Waiver" icon="fad fa-file-shield" %}
                         </div>
                     </div>
                     <div class="main-block">
@@ -176,13 +182,13 @@ layout: none
                 </div>
             </div>
             <div class="footer">
-                <!-- <br><br> -->
-                <!-- Project Source: <a href="https://github.com/ktwu01/ut01" target="_blank" rel="noopener noreferrer">github.com/ktwu01/ut01</a>. -->
-                If you like this page, please <a href="https://github.com/ktwu01/ut01/" target="_blank" rel="noopener noreferrer">star</a> or <a href="https://github.com/ktwu01/ut01/fork" target="_blank" rel="noopener noreferrer">fork</a> this repo on GitHub. ut01 navigation is a resource page for UT-Austin students.
+                If you like this page, please <a href="https://github.com/ut01/ut01.github.io/" target="_blank" rel="noopener noreferrer">star</a> or <a href="https://github.com/ut01/ut01.github.io/fork" target="_blank" rel="noopener noreferrer">fork</a> this repo on GitHub. You can also follow <a href="https://github.com/ut01" target="_blank" rel="noopener noreferrer">ut01</a> and follow <a href="https://github.com/ktwu01" target="_blank" rel="noopener noreferrer">me</a>. ut01 navigation is a resource page for UT-Austin students.
                 <br><br>
-                Copyright © ut01 {{ site.time | date: "%Y" }}, inspired by projects like <a href="https://github.com/SmartHypercube/ustclife" target="_blank" rel="noopener noreferrer">SmartHypercube/ustclife</a>. For errors or to suggest a link, please <a href="https://github.com/ktwu01/ut01/issues" target="_blank" rel="noopener noreferrer">create an issue</a>.
+                For errors or to suggest a link, please <a href="https://github.com/ut01/ut01.github.io/issues" target="_blank" rel="noopener noreferrer">create an issue</a>. Copyright © ut01 {{ site.time | date: "%Y" }}, inspired by projects like <a href="https://github.com/SmartHypercube/ustclife" target="_blank" rel="noopener noreferrer">SmartHypercube/ustclife</a>.
                 </div>
         </div>
+        <!-- https://clustrmaps.com/profile/1c6il/widget/customize -->
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=a5a0a0&w=a&t=tt&d=fQvKmZbPMctrjCs0jp8rDLqKYPwmQtmFVMiOSl9YUsE&co=f1f1f1&cmo=bc3a3a&cmn=1fd31f&ct=808080'></script>
     </body>
     <script>
         var setHome = function(obj, url) {
