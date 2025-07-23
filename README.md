@@ -1,3 +1,18 @@
+# ===== This is archived and moved to (will be maintain in) ===== 
+# ===== https://github.com/ut01/ut01.github.io =====
+---
+Contributions are warmly welcomed. ❤️
+---
+### Create pull request
+
+After making edits on your own clone of this repository, [create a new branch for a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+### ❤️ ❤️ ❤️ Wait for pull request to be received and merged
+Please wait for pull request to be received and merged, so that your modifications are accepted and deployed on the web page. 
+
+You can [contact me](https://github.com/ktwu01/ktwu01/blob/main/README.md) for a faster pull request review.
+
+
 # ut01: UT-Austin Student Navigation Homepage
 
 The copyright of the contents is held by ut01.
@@ -5,10 +20,6 @@ The copyright of the contents is held by ut01.
 The code and design of this webpage based on those by [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife), with minor modifications by ut01 and Koutian Wu.
 
 The modified code of UT-life is released under the MIT license.
-
----
-Contributions are warmly welcomed. ❤️
----
 
 Please follow these three steps to make contributions.
 
@@ -52,16 +63,6 @@ https://fontawesome.com/search
 
 
 **Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
-
-
-### Create pull request
-
-After making edits on your own clone of this repository, [create a new branch for a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
-### ❤️ ❤️ ❤️ Wait for pull request to be received and merged
-Please wait for pull request to be received and merged, so that your modifications are accepted and deployed on the web page. 
-
-You can [contact me](https://github.com/ktwu01/ktwu01/blob/main/README.md) for a faster pull request review.
 
 ---
 
