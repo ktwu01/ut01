@@ -2,3 +2,19 @@
 @import "reset";
 @import "nav";
 @import "content";
+
+/* Simple no-results message styling */
+.no-results-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    z-index: 1000;
+    margin-top: 5px;
+}

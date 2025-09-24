@@ -1,80 +1,145 @@
-# ===== This is archived and moved to (will be maintain in) ===== 
-# ===== https://github.com/ut01/ut01.github.io =====
+# ut01 - UT Austin Student Navigation Hub!
+
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
+[![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README.CN.md)
+[![Website](https://img.shields.io/website?url=https%3A//ut01.github.io)](https://ut01.github.io/) [![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![GitHub forks](https://img.shields.io/github/forks/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io/fork) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Discuss on Reddit](https://img.shields.io/badge/Discuss_on-Reddit-orange?logo=reddit)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/new_to_ut_austin_tired_of_clicking_through_5/)
+
+Site Traffic Analytics: [![Visitor Count](https://clustrmaps.com/map_v2.png?d=fQvKmZbPMctrjCs0jp8rDLqKYPwmQtmFVMiOSl9YUsE&cl=ffffff&w=a&t=tt&co=ffffff&ct=000000)](https://clustrmaps.com/site/1c6il)
+
+> **One-stop navigation for UT Austin students** 🤘  
+> Quick access to essential university links without deep navigation
+
+# **Live Site**: [ut01.github.io](https://ut01.github.io/)
+
+Click to watch the demo:
+
+[![Watch the demo](https://img.youtube.com/vi/G4b308e8a50/0.jpg)](https://youtu.be/G4b308e8a50)
+
 ---
-Contributions are warmly welcomed. ❤️
+
+## feature/news
+Aug 20: New in ut01: Registration Guide 🎉
+No more searching around for scattered links—everything you need is now in one place!
+👉 https://ut01.github.io/guides/registration-guide.html
+
+Aug 18: add "UT AI" section!
+
 ---
-### Create pull request
 
-After making edits on your own clone of this repository, [create a new branch for a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+## What is ut01?
 
-### ❤️ ❤️ ❤️ Wait for pull request to be received and merged
-Please wait for pull request to be received and merged, so that your modifications are accepted and deployed on the web page. 
+**ut01** is a student-built navigation homepage that consolidates all essential UT Austin links in one place. Created by [Koutian Wu](https://github.com/ktwu01/), a UT Austin PhD student (Class of '24) to solve the frustration of navigating deep university website hierarchies and dealing with frequent login timeouts.
 
-You can [contact me](https://github.com/ktwu01/ktwu01/blob/main/README.md) for a faster pull request review.
+![ut01 Screenshot](./assets/Screenshot-Multiple-Device-ut01.png)
+![ut01 Screenshot](./assets/Screenshot-Mobile-Device-ut01.png)
+
+---
+## Privacy & Data Collection
+
+ut01.github.io prioritizes user privacy while providing analytics insights for site improvement.
+
+**What We Track:**
+
+- Anonymous website analytics (Google Analytics)
+- Visitor statistics (Clustrmaps)
+- No personal accounts or credentials
+
+**What We Don't Collect:**
+
+- Personal identification information
+- Login credentials
+- Educational records
+- Email addresses or contact information
+
+**Compliance:**
+
+- No FERPA-regulated educational records processed
+
+[![Reddit Comment](assets/image.png)](https://www.reddit.com/r/UTAustin/comments/1loxvxu/comment/n0ri3k4/)
+
+👉 [View Reddit comments](https://www.reddit.com/r/UTAustin/comments/1loxvxu/comment/n0ri3k4/) on r/UTAustin
 
 
-# ut01: UT-Austin Student Navigation Homepage
+## Why ut01 Exists
 
-The copyright of the contents is held by ut01.
+As a UT student, I was constantly frustrated by:
 
-The code and design of this webpage based on those by [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife), with minor modifications by ut01 and Koutian Wu.
+- **Deep Link Navigation**: Simple tasks like checking dining balance required multiple clicks through complex menus
+- **Frequent Logouts**: UT links automatically sign out, making bookmarks redirect to "Sign in with your EID" pages
+- **Scattered Resources**: Essential student services spread across dozens of different portals
 
-The modified code of UT-life is released under the MIT license.
+So I built this centralized hub that organizes everything students actually need.
 
-Please follow these three steps to make contributions.
+---
 
-- [Cloning the repository](#cloning-the-repository)
-- [Editing the Template](#editing-the-template)
-- [Deploying the Site](#deploying-the-site)
+## Key Features
 
-### Cloning the Repository.
+### 🎯 **Essential Categories**
+- **Key Portals**: MyUT, UT Direct, Canvas, Emergency Info
+- **Academics**: Grades, Course Schedule, Libraries, Registration
+- **Financial**: Tuition, Financial Aid, Waivers, Tax Forms
+- **Campus Life**: Housing, Dining, Transportation, Recreation
+- **Technology**: EID Help, VPN, Microsoft 365, TACC
+- **International Services**: ISSS, Visa, Employment Authorization
 
-If you have [Git](https://git-scm.com/) installed on your computer, you can clone or download the portfolio template by running the following command in your terminal.
+### 🚀 **Student-Friendly Design**
+- **Quick Access**: No deep navigation required
+- **Bookmark-Ready**: Set as your browser homepage
+- **Always Updated**: Student-maintained for relevance
+- **Mobile Responsive**: Works on all devices
 
-```bash
-git clone https://github.com/ut01/ut01.github.io
-```
+---
 
-Alternatively, click on this [link](https://github.com/ut01/ut01.github.io/archive/refs/heads/main.zip) to download it.
+## How to Use
 
-### Editing the `index.html`
+1. **Visit** [ut01.github.io](https://ut01.github.io/)
+2. **Bookmark** frequently used links
+3. **Set as Homepage** for instant access
+4. **Search** for specific services using the search function
 
-After you get the template, please open it in the code editor of your choice.
-You will find a file named `index.html`. Open it and follow the guidance inscribed within the comments to customize the template.
+---
 
-**For example:**
+## Contributing
 
-```html
-<!-- Update with links, title, and icon -->
-{% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
-```
+Want to add a link or fix something? Contributions are welcome!
 
-**Where to search and change the logos:**
-https://fontawesome.com/search
+### Quick Steps
+1. **Fork** this repository
+2. **Edit** `index.html` following the template:
+   ```html
+   <!-- Add new link -->
+   {% include block-grid.html url="https://example.utexas.edu" title="Service Name" icon="fad fa-icon-name" %}
+   ```
+3. **Submit** a pull request
 
-```html
-  <!-- Replace with better icon -->
-{% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
+### Finding Icons
+Search for icons at [FontAwesome](https://fontawesome.com/search) and update the `icon` attribute.
 
-  <!-- Add a new piece -->
-{% include block-grid.html url="https://housing.utexas.edu/housing" title="Housing" icon="fad fa-bed-front" %}
+---
+
+## Technical Details
+
+- **Framework**: Jekyll with custom templates
+- **Hosting**: GitHub Pages
+- **License**: [CC BY-SA 4.0](LICENSE). This is a fork of [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife).
+- **Maintenance**: Student-driven updates
+
+---
+
+## Contact & Support
+
+- **Issues**: [Report problems or suggest additions](https://github.com/ut01/ut01.github.io/issues)
+- **Developer**: [Contact maintainer Koutian Wu](https://github.com/ktwu01/)
+- **Community**: Built by UT students, for UT students
+
+---
+
+<div align="center">
+
+**🤘 Hook 'em Horns! Made with ❤️ by UT Austin PhD students**
+
+[![GitHub stars](https://img.shields.io/github/stars/ut01/ut01.github.io)](https://github.com/ut01/ut01.github.io) [![Visit Site](https://img.shields.io/badge/Visit-ut01.github.io-orange)](https://ut01.github.io/)
+
+*Set ut01.github.io as your homepage and never hunt for UT links again!*
+
 </div>
-```
-
-
-**Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
-
----
-
-The original code is distributed by [SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife).
- 
-Note from [SmartHypercube/ustclife](https://ustc.life/):
-
-[USTC 导航](https://ustc.life/)是 [Hypercube](https://0x01.me/) 受到[负一的平方根](https://sqrt-1.me/)的[一篇文章](https://github.com/zzh1996/USTC-Network-Resources/blob/master/README.md)启发后，为科大人量身打造的浏览器首页。 不属于常用链接，但仍然有价值的网络资源，参见[那篇文章](https://github.com/zzh1996/USTC-Network-Resources/blob/master/README.md)。  
-  
-项目源码：[github.com/SmartHypercube/ustclife](https://github.com/SmartHypercube/ustclife)，报错或申请收录请[创建 issue](https://github.com/SmartHypercube/ustclife/issues)。 特别感谢 [doodlewind](https://ewind.us/) 和 [iBug](https://ibug.io/) 参与开发。  
-  
-Copyright © USTC 导航 2016 - 2025 [百度统计](https://tongji.baidu.com/web/help/article?id=330&type=0&castk=LTE%3D)
-
-<!--- notes
---->
