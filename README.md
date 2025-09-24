@@ -1,3 +1,5 @@
+# archived. Moved to https://github.com/ut01/ut01.github.io/
+
 # ut01 - UT Austin Student Navigation Hub!
 
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
